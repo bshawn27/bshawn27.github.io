@@ -1,43 +1,92 @@
+/* GENERAL PAGE SETTINGS */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  color: #333;
-  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
+/* HEADER */
 header {
-  background-color: #4B2E83; /* HPU Purple */
-  color: white;
-  padding: 15px;
+  background-color: #4B0082; /* purple */
+  color: gold;
+  padding: 15px 25px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+header .header-left {
+  display: flex;
   align-items: center;
 }
 
-.logo {
-  height: 60px;
+header .logo {
+  width: 70px;
   margin-right: 15px;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
+header h1 {
+  margin: 0;
+  font-size: 28px;
 }
 
-nav a:hover {
+/* NAVIGATION */
+nav a {
+  color: gold;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+nav a:hover,
+nav a.active {
   text-decoration: underline;
 }
 
-main {
-  padding: 40px;
+/* PROJECT SECTION */
+.project-section {
+  width: 80%;
+  margin: 40px auto;
+  background: white;
+  border: 3px solid #4B0082; /* purple border */
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 700px;
+  border: 3px solid gold;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+}
+
+.project-desc {
   text-align: center;
 }
 
+.project-desc h2 {
+  margin-top: 0;
+  color: #4B0082;
+}
+
+/* STICKY FOOTER */
 footer {
-  background-color: #4B2E83;
-  color: white;
+  background-color: #4B0082; /* purple */
+  color: gold;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+footer a {
+  color: gold;
+}
+
   text-align: center;
   padding: 10px;
 }
