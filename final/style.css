@@ -25,7 +25,6 @@ a {
     color: #0066cc;
     text-decoration: none;
 }
-
 a:hover {
     text-decoration: underline;
 }
@@ -40,7 +39,6 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #004999;
 }
