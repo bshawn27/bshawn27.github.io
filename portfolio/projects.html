@@ -8,12 +8,13 @@
 </head>
 <body>
 
-  <header>
+<header class="header">
+  <div class="header-inner">
     <div class="header-left">
       <img src="images/mylogo.png" alt="BShawn Logo" class="logo">
       <h1>High Point University Baseball</h1>
     </div>
-    <nav>
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="resume.html">Resume</a>
@@ -21,36 +22,43 @@
       <a href="projects.html" class="active">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main>
+<main class="content-wrapper">
 
-    <section class="project-section">
+  <div class="project-wrapper">
+    <div class="project-card">
+      <h3>Pitching Analytics Web App</h3>
       <a href="https://bjacobson.shinyapps.io/BaseballWebApp/" target="_blank">
-        <img src="portfolio/analyticspage.png" alt="Website pic" class="project-img">
+        <img src="images/analyticspage.png" alt="Pitching Analytics Web App" class="project-image">
       </a>
-
-      <div class="project-desc">
-        <h2>Pitching Analytics Application</h2>
+      <div class="project-box">
         <p>
-          As part of the High Point Baseball Analytics Team, we developed a data-driven 
-          application that processes CSV data from a pitcher’s previous outing. The tool 
-          visualizes pitch metrics, trends, and performance insights to improve development 
-          and game preparation.
+          As a member of the High Point University Baseball Analytics Team, I helped develop
+          a custom application that imports CSV pitching reports from previous outings.
+          The tool automatically organizes and visualizes pitch movement, release trends,
+          velocity, and usage breakdowns, allowing coaches to evaluate performance quickly.
+        </p>
+        <p>
+          It has become a crucial part of our pitching review process, helping our staff
+          identify strengths, weaknesses, and adjustments needed for future outings.
         </p>
       </div>
-    </section>
+    </div>
+  </div>
 
-  </main>
+</main>
 
-  <footer>
-    <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
-    <p><strong>Analytics Director</strong></p>
-    <p>
-      <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a>
-    </p>
-  </footer>
+<footer class="footer">
+  <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
+  <p><strong>Analytics Director</strong></p>
+  <p>
+    <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
+    <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">LinkedIn</a>
+  </p>
+</footer>
 
 </body>
 </html>
+
