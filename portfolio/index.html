@@ -7,36 +7,92 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="header-left">
-      <img src="images/mylogo.png" alt="BShawn Logo" class="logo">
-      <h1>High Point University Baseball</h1>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-left">
+        <img src="images/mylogo.png" alt="BShawn Logo" class="logo">
+        <h1>High Point University Baseball</h1>
+      </div>
+
+      <button class="nav-toggle">Menu</button>
+
+      <nav class="nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="resume.html">Resume</a>
-      <a href="courses.html">Courses</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html">Contact</a>
-    </nav>
   </header>
 
-  <main>
-    <h2>Welcome to HPU Baseball</h2>
-    <p>Explore the history, players, and achievements of the High Point University baseball program — a team built on pride, dedication, and excellence both on and off the field.</p>
-    <p>From standout performances to academic excellence, our players represent what it means to be a Panther.</p>
-    <img src="images/hpubblogo.jpeg" alt="HPU Panthers Logo" width="200">
+  <section class="hero">
+    <div class="container">
+      <h2>HPU Baseball Analytics Portfolio</h2>
+      <p>
+        Showcasing High Point University's record-setting 2025 baseball season and the analytical work
+        powering performance, player development, and competitive success.
+      </p>
+      <a href="about.html" class="btn">Explore the Program</a>
+    </div>
+  </section>
+
+  <main class="main container content-wrapper">
+    <div class="grid">
+      <div class="card">
+        <h3 class="section-title">Record-Breaking 2025 Season</h3>
+        <p class="lead">
+          HPU Baseball delivered one of the strongest seasons in program history.
+        </p>
+
+        <div class="stats-list">
+          <div class="stat">
+            <h4>39–19</h4>
+            <p>Overall Record</p>
+          </div>
+
+          <div class="stat">
+            <h4>18–6</h4>
+            <p>Big South Play</p>
+          </div>
+
+          <div class="stat">
+            <h4>#3 NCAA</h4>
+            <p>RBIs (Johnson)</p>
+          </div>
+
+          <div class="stat">
+            <h4>.434 AVG</h4>
+            <p>Durschlag (NCAA Leader)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="section-title">Player Highlights</h3>
+        <p class="lead">Top offensive contributions from the 2025 roster.</p>
+        <ul>
+          <li><strong>Landen Johnson:</strong> .355 AVG, 75 H, 78 RBIs</li>
+          <li><strong>Brayden Simpson:</strong> 24 Doubles</li>
+          <li><strong>Konni Durschlag:</strong> .434 AVG, 23 Doubles</li>
+          <li><strong>Miggy Echazarreta:</strong> 17 Doubles</li>
+          <li><strong>Brody Shawn:</strong> 1-0 record on the mound</li>
+        </ul>
+      </div>
+    </div>
   </main>
 
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
-    <p><strong>Analytics Director</strong></p>
+    <p class="small">Analytics Director</p>
     <p>
       <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">LinkedIn</a>
     </p>
   </footer>
+
 </body>
 </html>
 
