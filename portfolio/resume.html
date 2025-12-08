@@ -1,25 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dylan (Brody) Shawn — Resume</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - HPU Baseball</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .container { max-width: 1200px; margin: 40px auto; }
-    .two-col { display: grid; grid-template-columns: 1fr 350px; gap: 32px; }
-    header { display: flex; justify-content: space-between; align-items: center; }
-    .card { background: #fbfcff; padding: 18px; border-radius: 8px; }
-    .photo { width: 110px; height: 110px; border-radius: 8px; background: #e9f0ff; display:flex; align-items:center; justify-content:center; }
-  </style>
 </head>
 <body>
-  <header>
+
+<header class="header">
+  <div class="header-inner">
     <div class="header-left">
       <img src="images/mylogo.png" alt="BShawn Logo" class="logo">
       <h1>High Point University Baseball</h1>
     </div>
-    <nav>
+
+    <nav class="nav">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
       <a href="resume.html" class="active">Resume</a>
@@ -27,19 +23,29 @@
       <a href="projects.html">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-<iframe src="resume.pdf" height="200" width="300" title="Iframe Example"></iframe>
+<main class="main container content-wrapper">
 
-  <footer>
-    <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
-    <p><strong>Analytics Director</strong></p>
-    <p>
-      <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
-      <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank">LinkedIn</a>
-    </p>
-  </footer>
+  <div class="card">
+    <h2 class="section-title">My Resume</h2>
+    <p class="lead">View my full resume below.</p>
+
+    <img src="images/resume_page_1.png" alt="Resume Image" class="resume-img">
+  </div>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
+  <p class="small">Analytics Director</p>
+  <p>
+    <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
+    <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">LinkedIn</a>
+  </p>
+</footer>
+
 </body>
 </html>
-
 
