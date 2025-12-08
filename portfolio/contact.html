@@ -5,53 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - HPU Baseball</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Add Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .contact-info a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .contact-info a i {
+      color: var(--hpupurple);
+      font-size: 1.1rem;
+    }
+
+    .contact-info p {
+      margin-bottom: 12px;
+    }
+  </style>
 </head>
 <body>
 
-<header class="header">
-  <div class="header-inner">
-    <div class="header-left">
-      <img src="./mylogo.png" alt="BShawn Logo" class="logo">
-      <h1>High Point University Baseball</h1>
-    </div>
-
-    <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="resume.html">Resume</a>
-      <a href="courses.html">Courses</a>
-      <a href="projects.html">Projects</a>
-      <a href="contact.html" class="active">Contact</a>
-    </nav>
+<header>
+  <div class="header-left">
+    <img src="images/mylogo.png" alt="BShawn Logo" class="logo">
+    <h1>High Point University Baseball</h1>
   </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="courses.html">Courses</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
 </header>
 
-<main class="main container content-wrapper">
-
+<main class="content-wrapper">
   <div class="contact-container">
     <h2 class="section-title">Contact Me</h2>
-    <p class="lead">Feel free to reach out for analytics work, baseball discussions, or collaborations.</p>
+    <p class="lead">Feel free to reach out via email, phone, or social media!</p>
 
     <div class="contact-info">
-      <p><strong>Email:</strong> <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a></p>
-      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">linkedin.com/in/brody-shawn</a></p>
-      <p><strong>Location:</strong> High Point University, NC</p>
+      <p>
+        <a href="mailto:bshawn@highpoint.edu">
+          <i class="fas fa-envelope"></i> bshawn@highpoint.edu
+        </a>
+      </p>
+      <p>
+        <a href="tel:+1234567890">
+          <i class="fas fa-phone"></i> (123) 456-7890
+        </a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+      </p>
+      <p>
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+      </p>
     </div>
   </div>
-
 </main>
 
-<footer class="footer">
+<footer class="sticky-footer">
   <p>&copy; 2025 High Point University Baseball | Designed by Brody Shawn</p>
-  <p class="small">Analytics Director</p>
-  <p>
-    <a href="mailto:bshawn@highpoint.edu">bshawn@highpoint.edu</a> |
-    <a href="https://www.linkedin.com/in/brody-shawn" target="_blank">LinkedIn</a>
-  </p>
+  <p><strong>Analytics Director</strong></p>
 </footer>
 
 </body>
 </html>
-
 
 
